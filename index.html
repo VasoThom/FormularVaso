@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Formular</title>
+  </head>
+  <body>
+    <form action="https://formspree.io/f/mgedrqek" method="post">
+      <label>
+        Vorname:
+        <input
+          type="text"
+          placeholder=" give your name"
+          name="vorname"
+          required
+        />
+      </label>
+      <br />
+      <label>
+        Alter:
+        <input
+          type="number"
+          placeholder="give your age "
+          name="alter"
+          required
+        />
+      </label>
+      <br />
+      <label>
+        Your message :
+        <textarea
+          name="Nachricht"
+          placeholder="An uns"
+          id=""
+          cols="30"
+          rows="10"
+          name="message"
+        ></textarea>
+      </label>
+      <br />
+
+      <label>
+        Favourite Country:
+        <select required name="country">
+          <option value="Griechenland">Greece :)</option>
+          <option value="Deutschland">Germany</option>
+          <option value="Russland">Russia</option>
+          <option value="Turkei">Turkey</option>
+        </select>
+      </label>
+      <br />
+      <button type="submit">Sent</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>

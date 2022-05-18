@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(202, 173, 131);
+}
+label {
+  font-size: xx-large;
+  display: flex;
+}
+input {
+  font-size: large;
+}
+textarea {
+  background-color: rgb(229, 198, 156);
+  font-size: larger;
+}
+button {
+  font-size: large;
+  background-color: rgba(130, 102, 9, 0.718);
+}
+button:hover {
+  color: red;
+}
+select {
+  background-color: blueviolet;
+  font-size: larger;
+}
+option {
+  background-color: brown;
+}
